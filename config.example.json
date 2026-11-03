@@ -1,0 +1,16 @@
+{
+  "github_token": "REPLACE_ME",
+  "shared_secret": "REPLACE_ME",
+  "api_bases": [
+    "https://api.individual.githubcopilot.com",
+    "https://api.githubcopilot.com"
+  ],
+  "exchange_url": "https://api.github.com/copilot_internal/v2/token",
+  "allow_exchange": true,
+  "integration_id": "copilot-developer-cli",
+  "api_version": "2025-07-16",
+  "editor_version": "vscode/1.99.3",
+  "editor_plugin_version": "copilot-chat/0.26.7",
+  "model_hints": ["auto"],
+  "intent_model_hints": ["auto"]
+}

@@ -1,0 +1,10 @@
+# Never commit a real configuration — it holds the GitHub credential and the shared secret.
+config.json
+config.*.json
+!config.example.json
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
