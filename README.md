@@ -1,13 +1,10 @@
-# github-copilot-proxy
+# Ron's Github Copilot Proxy
 
 ![CI](https://github.com/Ron-RONZZ-org/github-copilot-proxy/actions/workflows/ci.yml/badge.svg)
 
-GitHub Copilot **auto** model selection, exposed as an OpenAI-compatible API.
+This proxy exposes GitHub Copilot **auto** model selection as an OpenAI-compatible API.
 
-Built for [ronzz.ORG](https://ronzz.org)'s Open WebUI instance (`llm.ronzz.org`),
-where GitHub Copilot is a **backup** model source. The account only has a
-Copilot *student* (educational) seat, so the proxy pins the model to Copilot's
-`auto` routing instead of exposing a hand-picked model list.
+Built for using Copilot *student*, which only has access to auto models with any 3rd-party client compatible with OpenAI-style API. 
 
 ## Why this exists
 
